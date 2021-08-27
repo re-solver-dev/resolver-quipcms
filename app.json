@@ -5,7 +5,11 @@
     "keywords": [],
     "addons": [
         "heroku-postgresql",
-        ""
+        "heroku-redis",
+        "algoliasearch",
+        "cloudinary",
+        "herokuconnect",
+        "papertrail"
     ],
     "env": {
         "SECRET_KEY": {
