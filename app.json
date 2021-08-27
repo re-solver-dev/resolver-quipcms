@@ -1,0 +1,36 @@
+{
+    "name": "Quip CMS",
+    "description": "",
+    "repository": "https://github.com/re-solver-dev/resolver-quipcms",
+    "keywords": [],
+    "addons": [
+        "heroku-postgresql",
+        ""
+    ],
+    "env": {
+        "SECRET_KEY": {
+            "description": "アプリケーションキー",
+            "generator": "secret"
+        },
+        "AUTH_CREDENTIALS": {
+            "description": "ベーシック認証",
+            "value": "test:sample"
+        },
+        "CORS_ALLOWED_ORIGINS": {
+            "description": "Salesforce URL",
+            "value": "https://[Salesforce Instance].lightning.force.com"
+        },
+        "CSP_LIST": {
+            "description": "外部リソースのドメイン",
+            "value": "'self','unsafe-inline',www.googletagmanager.com,www.google-analytics.com,www.youtube.com"
+        },
+        "MOVIE_URLS": {
+            "description": "動画サイトのドメイン",
+            "value": "www.youtube.com"
+        },
+        "QUIP_ACCESS_TOKEN": {
+            "description": "QUIPアクセストークン",
+            "value": ""
+        }
+    }
+}
