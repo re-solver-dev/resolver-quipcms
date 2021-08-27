@@ -3,6 +3,7 @@
     "description": "",
     "repository": "https://github.com/re-solver-dev/resolver-quipcms",
     "keywords": [],
+    "image": "heroku/python",
     "addons": [
         "heroku-postgresql",
         "heroku-redis",
